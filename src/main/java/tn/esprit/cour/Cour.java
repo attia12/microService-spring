@@ -12,6 +12,8 @@ import lombok.*;
 public class Cour {
 
 
+
+
     @Id
     @GeneratedValue
     private Integer id;

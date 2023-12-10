@@ -12,6 +12,8 @@ import java.util.List;
 @RequiredArgsConstructor
 public class CourService {
 
+
+
     private final CourRepository courRepository;
 
     private PlanningClient planningClient;
@@ -46,6 +48,8 @@ public class CourService {
         }
         return null; // Gérer le cas où l'entité n'est pas trouvée
     }
+
+
 
     public void deleteCour(Integer id) {
         courRepository.deleteById(id);
